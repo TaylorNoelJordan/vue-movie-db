@@ -1,6 +1,6 @@
 <template>
     <header>
-        <h1>{{ newTitle }}</h1>
+        <h1>{{ title }}</h1>
     </header>
 </template>
 
@@ -13,11 +13,6 @@ export default {
     data: function () {
         return {
             name: 'Scott'
-        }
-    },
-    computed: {
-        newTitle: function() {
-            return "New Title"
         }
     }
 }
